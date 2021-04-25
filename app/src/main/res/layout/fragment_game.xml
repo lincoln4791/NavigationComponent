@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game">
+    <TextView
+        android:id="@+id/midGameFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="In game"
+        android:gravity="center"
+        android:background="@color/teal_200" />
+
+
+    <Button
+        android:id="@+id/btnMidGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="Mid Game" />
+
+</FrameLayout>
